@@ -45,7 +45,6 @@ public class Program {
         Integer idPosition = position(employeeList, id);
 
         if(idPosition == null)  {
-
             System.out.println("This id does not exist!");
         } else {
             System.out.println("Enter the percent:" );
